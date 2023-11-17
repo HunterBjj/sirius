@@ -25,21 +25,23 @@
 
 Технологии:  Python 3, Django (DRF), Vue.js, Любая база данных SQL.
 
-# Итог
+# Итог работы:
 
 Для запуска приложение необходимо:
 - git clone https://github.com/HunterBjj/rait_scan_birds;
 - провеcти миграции python manage.py makemigrations, python manage.py migrate;
 - запустить локальный сервер python manage.py runserver.
+Для вывода json ввести url:
+- http://127.0.0.1:8000/api/images/?format=json.
 
   Приложение состоит из пяти html страниц:
 
-   <p align="center"> Рисунок 1 - Авторизация </p>
+   <p align="center"> Рисунок 1 - Картинки </p>
 
-    <p align="center"> Рисунок 2 - Регистрация </p>
+    <p align="center"> Рисунок 2 - Удаление </p>
     
 
-    <p align="center"> Рисунок 3 - Просмотр птиц </p>
+    <p align="center"> Рисунок 3 - Добавление </p>
   
 
       База данных SQLlite состоит одной таблицы:
